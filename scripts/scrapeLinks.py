@@ -36,7 +36,8 @@ for i in range(query_num):
     queries.append(answer)  # Prompt user to input each query
 
 # SerpApi API key (replace with your actual API key)
-api_key = "" #TODO: add key here
+import constants
+api_key = constants.SERPAPI_KEY
 
 def get_links(api_key, queries):
     # List to store dictionaries of title, link, and source

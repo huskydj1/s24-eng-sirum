@@ -13,7 +13,7 @@ Due to package requirements, we encourage users to run our code using Python 3.9
 pip install -r requirements.txt
 ```
 
-Should also add API keys 
+Some of these packages require "constants" to run--variables that must be defined once, such as API keys. You must define these in `constants.py`. We provide further instructions about each variable in the file. 
 
 ## Scripts
 

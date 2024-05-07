@@ -14,7 +14,8 @@ import re  # Import re library for regular expressions
 import time  # Import time for time-related functions
 
 # Set the path to the ChromeDriver executable (replace with your own path)
-chrome_path = '' #TODO: add path here
+import constants
+chrome_path = constants.CHROME_WEBDRIVER
 os.chmod(chrome_path, 0o700)  # Change file permissions to allow execution
 
 # Create a ChromeDriver service with the specified path

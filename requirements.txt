@@ -3,3 +3,7 @@ webdriver_manager
 geopy
 drug_named_entity_recognition
 folium 
+pandas
+serpapi
+nltk
+textblob
